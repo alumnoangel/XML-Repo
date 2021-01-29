@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ediciones_aranda">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="cabecera">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="titulo" type="xs:string" />
+							<xs:element name="contenido" type="xs:string" />
+							<xs:element name="descripcion" type="xs:string" />
+							<xs:element name="fecha" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="tabla">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="region">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="sur">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element maxOccurs="unbounded" name="trim" type="xs:integer" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element maxOccurs="unbounded" name="centro">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element maxOccurs="unbounded" name="trim" type="xs:integer" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element maxOccurs="unbounded" name="norte">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element maxOccurs="unbounded" name="trim" type="xs:integer" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="trimestre" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

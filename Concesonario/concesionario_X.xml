@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<Concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:noNamespaceSchemaLocation="concesionario.xsd">
-
-<Concesionario>
+<concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="concesionario.xsd">
     <coche>
         <codigo>26</codigo>
         <modelo>Ibiza</modelo>
@@ -38,4 +37,4 @@
         <numeroPuertas>3</numeroPuertas>
         <plazas>5</plazas>
     </coche>
-</Concesionario>
+</concesionario>
