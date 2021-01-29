@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:noNamespaceSchemaLocation="concesionario.xsd">
+
+<Concesionario>
+    <coche>
+        <codigo>26</codigo>
+        <modelo>Ibiza</modelo>
+        <matricula>1225-abc</matricula>
+        <marca>Seat</marca>
+        <potencia>128</potencia>
+        <numeroPuertas>5</numeroPuertas>
+        <plazas>5</plazas>
+    </coche>
+    <coche>
+        <codigo>4</codigo>
+        <modelo>Leon</modelo>
+        <matricula>8966-cfd</matricula>
+        <marca>Seat</marca>
+        <potencia>140</potencia>
+        <numeroPuertas>5</numeroPuertas>
+        <plazas>5</plazas>
+    </coche>
+    <coche>
+        <codigo>11</codigo>
+        <modelo>Auris</modelo>
+        <matricula>2144-opd</matricula>
+        <marca>Toyota</marca>
+        <potencia>220</potencia>
+        <numeroPuertas>3</numeroPuertas>
+        <plazas>5</plazas>
+    </coche>
+    <coche>
+        <codigo>5</codigo>
+        <modelo>Fiesta</modelo>
+        <matricula>6144-oxd</matricula>
+        <marca>Ford</marca>
+        <potencia>150</potencia>
+        <numeroPuertas>3</numeroPuertas>
+        <plazas>5</plazas>
+    </coche>
+</Concesionario>
