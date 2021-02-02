@@ -9,7 +9,7 @@
 							<xs:element name="autores">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element maxOccurs="unbounded" name="autor">
+										<xs:element name="autor" type="string" maxOccurs="2" minOccurs="1">
 											<xs:complexType>
 												<xs:sequence>
 													<xs:element name="ape1" type="xs:string" />
