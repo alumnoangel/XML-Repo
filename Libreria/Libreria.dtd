@@ -4,8 +4,6 @@
 
 <!ELEMENT libro (autores|titulo|codigoLibro|editorial|edicion|f.publicacion|ISBN|numeroPaginas)*>
 
-<!ELEMENT autores (autor)*>
-
 <!ELEMENT autor (ape1|ape2|nombre)*>
 
 <!ELEMENT ape1 (#PCDATA)>
