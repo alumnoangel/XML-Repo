@@ -3,13 +3,13 @@
     xsi:noNamespaceSchemaLocation="clientes.xsd">
     <clientes>
         <sede>
-            <codSede>13854</codSede>
+            <codSede>W1385400</codSede>
             <empleado>Juan Carmona</empleado>
             <fechaAlta>10/15/2020</fechaAlta>
-            <descripcion>Nada que reseñar<descripcion>
+            <descripcion>solvente<descripcion>
             <direccion>calle falsa numero 123</direccion>
             <cliente>
-                <codCliente>9552</codCliente>
+                <codCliente>TXX-655</codCliente>
                 <numeroViviendas>1<numeroViviendas>
                 <coste>50000</coste>
                 <resumen>vivienda de tres habitaciones</resumen>
