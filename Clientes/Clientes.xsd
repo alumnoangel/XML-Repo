@@ -16,7 +16,7 @@
                         <xs:sequence>
                             <xs:element minOccurs="0" maxOccurs="unbounded" name="direccion" type="xs:string" />
                             <xs:element name="nombreEmpleado" type="xs:string" />
-                            <xs:element name="fechaAlta" type="xs:dateTime" />
+                            <xs:element name="fechaAlta" type="xs:date" />
                             <xs:element name="descripcionCliente" minOccurs="0">
                                 <xs:simpleType>
                                     <xs:restriction base="xs:string">
