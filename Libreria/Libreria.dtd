@@ -1,27 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
 <!ELEMENT Libreria (libro)*>
-
 <!ELEMENT libro (autores|titulo|codigoLibro|editorial|edicion|f.publicacion|ISBN|numeroPaginas)*>
-
+<!ELEMENT autores (autor)*>
 <!ELEMENT autor (ape1|ape2|nombre)*>
-
 <!ELEMENT ape1 (#PCDATA)>
-
 <!ELEMENT ape2 (#PCDATA)>
-
 <!ELEMENT nombre (#PCDATA)>
-
 <!ELEMENT titulo (#PCDATA)>
-
 <!ELEMENT codigoLibro (#PCDATA)>
-
 <!ELEMENT editorial (#PCDATA)>
-
 <!ELEMENT edicion (#PCDATA)>
-
 <!ELEMENT f.publicacion (#PCDATA)>
-
 <!ELEMENT ISBN (#PCDATA)>
-
 <!ELEMENT numeroPaginas (#PCDATA)>

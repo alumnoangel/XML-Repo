@@ -1,28 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-
-<!ELEMENT clientes (sede)*>
-
-<!ELEMENT sede (codSede|empleado|fechaAlta|descripcion|direccion|cliente)>
-
-<!ELEMENT cliente (codCliente|numeroViviendas|coste|resumen|plazo)*>
-
-<!ELEMENT codCliente ANY>
-
-<!ELEMENT numeroViviendas (#PCDATA)>
-
-<!ELEMENT coste (#PCDATA)>
-
-<!ELEMENT resumen (#PCDATA)>
-
-<!ELEMENT plazo (CDATA)>
-
-<!ELEMENT codSede ANY>
-
-<!ELEMENT empleado (#PCDATA)>
-
-<!ELEMENT fechaAlta (CDATA)>
-
-<!ELEMENT descripcion (#PCDATA)>
-    <!ATTLIST descripcion (solvente|insolvente)>
-
+<!ELEMENT clientes (sede+)>
+<!ELEMENT sede (direccion+|empleado|fechaAlta|descripcion?|cliente+)*>
+<!ATTLIST sede codigo CDATA #REQUIRED>
 <!ELEMENT direccion (#PCDATA)>
+<!ELEMENT empleado (#PCDATA)>
+<!ELEMENT fechaAlta (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cliente (numeroViviendas|coste|resumen?|plazo)*>
+<!ATTLIST cliente codigo CDATA #REQUIRED>
+<!ELEMENT numeroViviendas (#PCDATA)>
+<!ELEMENT coste (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT plazo (#PCDATA)>

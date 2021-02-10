@@ -1,19 +1,23 @@
-<xml? version='1.0' encoding='UTF-8'?>
-<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="clientes.xsd">
-    <clientes>
-        <sede>
-            <codSede>W1385400</codSede>
-            <empleado>Juan Carmona</empleado>
-            <fechaAlta>10/15/2020</fechaAlta>
-            <descripcion>solvente<descripcion>
-            <direccion>calle falsa numero 123</direccion>
-            <cliente>
-                <codCliente>TXX-655</codCliente>
-                <numeroViviendas>1<numeroViviendas>
-                <coste>50000</coste>
-                <resumen>vivienda de tres habitaciones</resumen>
-                <plazo>16/11/2022</plazo>
-            </cliente>
-        </sede>
-    </clientes>
+    <sede codigo="P65840XT">
+        <direccion>calle falsa 123</direccion>
+        <direccion>calle falsa 456</direccion>
+        <nombreEmpleado>Luis Marquez</nombreEmpleado>
+        <fechaAlta>2020-10-01T08:40:09</fechaAlta>
+        <descripcionCliente>Solvente</descripcionCliente>
+        <cliente codigo="JKK-668">
+            <numViviendas>2</numViviendas>
+            <costeVivienda>115540.45</costeVivienda>
+            <resumenViviendas>Bien situada</resumenViviendas>
+            <plazoAlta>2020-07-20</plazoAlta>
+        </cliente>
+        <cliente codigo="DXT-690">
+            <numViviendas>1</numViviendas>
+            <costeVivienda>54000.00</costeVivienda>
+            <resumenViviendas>Con plaza de aparcamiento</resumenViviendas>
+            <plazoAlta>2019-04-11</plazoAlta>
+        </cliente>
+    </sede>
+</clientes>

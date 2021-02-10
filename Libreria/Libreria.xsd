@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	version="0.1" xml:lang="es">
 	<xs:element name="Libreria">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element maxOccurs="unbounded" name="libro">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="autores">
+							<xs:element name="autores" maxOccurs="1">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="autor" type="string" maxOccurs="2" minOccurs="1">
+										<xs:element name="autor" maxOccurs="2">
 											<xs:complexType>
 												<xs:sequence>
-													<xs:element name="ape1" type="xs:string" />
-													<xs:element name="ape2" type="xs:string" />
-													<xs:element name="nombre" type="xs:string" />
+													<xs:element name="ape1" type="xs:string"/>
+													<xs:element name="ape2" type="xs:string"/>
+													<xs:element name="nombre" type="xs:string"/>
 												</xs:sequence>
 											</xs:complexType>
 										</xs:element>
@@ -22,12 +23,12 @@
 								</xs:complexType>
 							</xs:element>
 							<xs:element name="titulo" type="xs:string" />
-							<xs:element name="codigoLibro" type="xs:integer" />
+							<xs:element name="codigoLibro" type="xs:string" />
 							<xs:element name="editorial" type="xs:string" />
-							<xs:element name="edicion" type="xs:integer" />
-							<xs:element name="f.publicacion" type="xs:integer" />
-							<xs:element name="ISBN" type="xs:integer" />
-							<xs:element name="numeroPaginas" type="xs:integer" />
+							<xs:element name="edicion" type="xs:string" />
+							<xs:element name="f.publicacion" type="xs:string" />
+							<xs:element name="ISBN" type="xs:string" />
+							<xs:element name="numeroPaginas" type="xs:string" />
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>

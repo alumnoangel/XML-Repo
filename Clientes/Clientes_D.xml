@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE clientes SYSTEM "clientes.dtd">
 <clientes>
-    <sede>
-        <codSede>A1385403</codSede>
-        <empleado>Juan Carmona</empleado>
-        <fechaAlta>10/15/2020</fechaAlta>
-        <descripcion>solvente</descripcion>
+    <sede codigo="W1385400">
         <direccion>calle falsa numero 123</direccion>
-        <cliente>
-            <codCliente>ECS-119</codCliente>
+        <direccion>calle falsa numero 321</direccion>
+        <empleado>Juan Carmona</empleado>
+        <fechaAlta>10-15-2020</fechaAlta>
+        <descripcion>solvente</descripcion>
+        <cliente codigo="AAA-548">
             <numeroViviendas>1</numeroViviendas>
             <coste>50000</coste>
             <resumen>vivienda de tres habitaciones</resumen>
-            <plazo>16/11/2022</plazo>
+            <plazo>16-11-2022</plazo>
         </cliente>
     </sede>
 </clientes>
