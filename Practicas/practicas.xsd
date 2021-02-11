@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:element name="practicas">
 		<xs:complexType>
 			<xs:sequence>
@@ -8,16 +8,16 @@
 						<xs:sequence>
 							<xs:element name="nif" type="xs:string" />
 							<xs:element name="resultado" type="xs:string" />
-							<xs:element name="mac" type="xs:string" />
-							<xs:element name="observaciones">
-								<xs:complexType>
+							<xs:element minOccurs="0" name="mac" type="xs:string" />
+							<xs:element minOccurs="0" name="observaciones">
+								<xs:complexType mixed="true">
 									<xs:sequence>
-										<xs:element name="anhos" type="xs:integer" />
+										<xs:element name="anhos" type="xs:unsignedByte" />
 										<xs:element name="poblacion" type="xs:string" />
 									</xs:sequence>
 								</xs:complexType>
 							</xs:element>
-							<xs:element name="ip" type="xs:string" />
+							<xs:element minOccurs="0" name="ip" type="xs:string" />
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>

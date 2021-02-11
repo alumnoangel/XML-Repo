@@ -4,8 +4,8 @@
 	<alumno>
 		<nif>95555555K</nif>
 		<resultado>Apto</resultado>
-		<observaciones>Este alumno tiene <anhos>20</anhos>años y vive en <poblacion>Lugo</poblacion></observaciones>
-		<ip>172.168.1.1</ip> <!-- Los alumnos tienen IP o MAC pero no ambas -->
+		<observaciones>Este alumno tiene <anhos>20</anhos>aï¿½os y vive en <poblacion>Lugo</poblacion></observaciones>
+		<ip>172.168.1.1</ip>
 	</alumno>
 	<alumno>
 		<nif>44444444A</nif>
